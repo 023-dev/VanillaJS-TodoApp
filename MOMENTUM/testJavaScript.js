@@ -88,3 +88,100 @@
 // alert(powerReuslt)
 
 //Continue #2.13.. href = "https://nomadcoders.co/javascript-for-beginners/lectures/2886"
+
+// const title = document.querySelector(".hello:first-child h1")
+
+
+// function handleTitleClick() {
+//     title.style.color = "blue"
+//     //title.innerText = "Clicked"
+// }
+
+// function handlerTitleMouseEnter(){
+//     title.style.color = "skyblue"
+//     title.innerText = "MouseEntered"
+// }
+
+// function handlerTitleMouseLeave(){
+//     title.style.color = "purple"
+//     title.innerText = "MouseLeft"
+// }
+
+// function handlerTitleMouseOut(){
+//     title.style.color = "blue"
+//     title.innerText = "MouseOuted"
+// }
+
+// title.addEventListener("click", handleTitleClick);
+// title.addEventListener("mouseenter", handlerTitleMouseEnter)
+// title.addEventListener("mouseleave", handlerTitleMouseLeave)
+// title.addEventListener("mouseout", handlerTitleMouseOut)
+
+// const title = document.querySelector(".hello:first-child h1")
+
+
+// function handleTitleClick() {
+//     title.style.color = "blue"
+//     //title.innerText = "Clicked"
+// }
+
+// function handlerTitleMouseEnter(){
+//     title.style.color = "skyblue"
+//     title.innerText = "MouseEntered"
+// }
+
+// function handlerTitleMouseLeave(){
+//     title.style.color = "purple"
+//     title.innerText = "MouseLeft"
+// }
+
+// function handlerTitleMouseOut(){
+//     title.style.color = "blue"
+//     title.innerText = "MouseOuted"
+// }
+
+// title.addEventListener("click", handleTitleClick);
+// title.addEventListener("mouseenter", handlerTitleMouseEnter)
+// title.addEventListener("mouseleave", handlerTitleMouseLeave)
+// title.addEventListener("mouseout", handlerTitleMouseOut)
+
+
+//window functions
+// function handleWindowResize(){
+//     document.body.style.backgroundColor = "tomato";
+// }
+
+// function handlerWindowCopy(){
+//     alert("Don't Copy!")
+// }
+
+// window.addEventListener("resize", handleWindowResize)
+// window.addEventListener("copy", handlerWindowCopy)
+
+// const wifiStatus = document.querySelector(".wifiStatus")
+
+// function handlerWifiOnline(){
+//     wifiStatus.innerText = "Online"
+// }
+
+// function handleWifiOffline(){
+//     wifiStatus.innerText = "Offline"
+// }
+
+// window.addEventListener("online", handlerWifiOnline)
+// window.addEventListener("offline", handleWifiOffline)
+
+// const h1 = document.querySelector("div.hello:first-child h1");
+
+// function handlerTitleMouseEnter() {
+//     const currentColor = h1.style.color
+//     let newColor;
+//     if(currentColor == "green"){
+//         newColor = "tomato";
+//     }else {
+//         newColor = "green";
+//     }
+//     h1.style.color = newColor;
+// }
+
+// h1.addEventListener("click", handlerTitleMouseEnter)
