@@ -1,0 +1,115 @@
+body{
+    /* background-color: black; */
+    height: 100vh;
+    background-image : url("../image/bg.jpg");
+    background-size: cover;
+    background-repeat : no-repeat;
+}
+
+h1{
+    color : green;
+    transition: color .5s ease-in-out;
+}
+
+.clicked {
+    color : lightgreen;
+}
+
+.aws-font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hidden {
+    display : none;
+}
+
+#clock {
+    color : white;
+    align-items: center;
+}
+
+.fade-in-box{
+    /* transition: color .5s ease-in-out; */
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+@keyframes fadeInText {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fade-out-box {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    animation: fadeout 2s;
+    -moz-animation: fadeout 2s; /* Firefox */
+    -webkit-animation: fadeout 2s; /* Safari and Chrome */
+    -o-animation: fadeout 2s; /* Opera */
+    animation-fill-mode: forwards;
+}
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@-moz-keyframes fadeout { /* Firefox */
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes fadeout { /* Safari and Chrome */
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@-o-keyframes fadeout { /* Opera */
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
