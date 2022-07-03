@@ -1,12 +1,15 @@
+body {
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
-
-h1{
+h1 { 
     color : white;
     transition: color .5s ease-in-out;
 }
 
 .clicked {
     color : lightgreen;
+    align-items: center;
 }
 
 .aws-font {
@@ -20,4 +23,16 @@ h1{
 #clock {
     color : white;
     align-items: center;
+    font-size: 100px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#quote {
+    color : white;
 }

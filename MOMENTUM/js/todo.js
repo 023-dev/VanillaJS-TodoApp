@@ -12,9 +12,9 @@ function deleteToDo(event){
     console.log(event)
     const li = (event.target.parentElement)
     //toDos.remove(id : li.id)
-    toDos.pop(`id:${li.id}`)
-    localStorage.clear()
-    localStorage.setItem(TODOS_KEY, JSON.stringify(toDos))
+    toDos = toDos.filter(item => item.id != parseInt(li.id) )
+    //localStorage.setItem(TODOS_KEY, JSON.stringify(toDos))
+    saveToDos()
     li.remove()
     //localStorage.removeItem(li.innerText)
 }
@@ -64,3 +64,11 @@ if(savedToDos != null){
 
 }
 
+function filterToDos (item, falseItem){
+    //instead of that a under code
+    // toDos.pop(`id:${li.id}`) 
+    // localStorage.removeItem("todos")
+    // localStorage.setItem(TODOS_KEY, JSON.stringify(toDos))
+
+    return item.id != falseItem
+}

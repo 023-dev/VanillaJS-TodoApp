@@ -8,7 +8,6 @@
     <title>Momentum</title>
 </head>
 <body>
-    
     <form id="login-form" class = "hidden">
         <input 
             required 
@@ -20,24 +19,29 @@
         <!--button >Log In</button-->
         <a href="https://nomadcoders.co/">Go to course</a>
     </form>
-    <h1 id="greeting" class="hidden">00:00:00</h1>
-    <h2 id = "clock"></h2>
 
-    <form id ="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter.">
-    </form>
-    <ul id="todo-list">
-    </ul>
-    <dev id = "quote">
-        <span class="fade-in-box fade-out-box">_</span>
-        <br>
-        <span class="fade-in-box fade-out-box">_</span>
-    </dev>
-    <!-- <div class = "hello">
-        <h1 class = "aws-font">
-            Test
-        </h1>
-    </div> -->
+    <div class = "wrapper"> 
+        <h1 id="greeting" class="hidden content">00:00:00</h1>
+        <h2 id = "clock"></h2>
+    </div>
+
+        <form id ="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter.">
+        </form>
+        <ul id="todo-list"></ul>
+        
+        <dev id = "quote">
+            <span class="fade-in-box fade-out-box">_</span>
+            <br>
+            <span class="fade-in-box fade-out-box">_</span>
+        </dev>
+    
+    <div id="weather">
+        <img>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
     <!--wifi test code-->
     <!-- <h2 class = "wifiStatus">
         Wifi
@@ -48,5 +52,6 @@
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>
