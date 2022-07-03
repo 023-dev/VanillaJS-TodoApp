@@ -23,15 +23,17 @@ function paintToDo(newToDoObj){
     const liCreator = document.createElement("li");
     const spanCreator = document.createElement("span");
     const buttonCreator = document.createElement("button")
-    liCreator.appendChild(spanCreator)
     liCreator.appendChild(buttonCreator)
+    liCreator.appendChild(spanCreator)
     spanCreator.innerText = newToDoObj.text
     buttonCreator.innerText = "❌"
+    buttonCreator.style.border = "0"
+    buttonCreator.style.backgroundColor = "(255,255,255,0.5)"
     buttonCreator.addEventListener("click",deleteToDo)
     liCreator.id = newToDoObj.id
     toDoList.appendChild(liCreator)
     // liCreator.innerText(BindNewToDo)
-    
+    //list-style-type: none;
 }
 
 function handleToDoSubmit(event){
