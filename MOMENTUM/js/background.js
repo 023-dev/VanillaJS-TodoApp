@@ -12,7 +12,8 @@ const imageNames = ["0.jpg","1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.j
 const chosenImage = imageNames[Math.floor(Math.random() * (imageNames.length-1))]
 const bgImage = document.createElement("img")
 const bgImageUrl = `image/${chosenImage}`
-document.body.style.backgroundImage = `url('${bgImageUrl}')`
+//document.body.style.backgroundImage = `url('${bgImageUrl}')`
+document.body.style.backgroundImage = `url('image/bg.jpg')`
 //bgImage.src = `image/${chosenImage}`
 bgImage.style.backgroundSize = "cover"
 document.body.appendChild(bgImage)

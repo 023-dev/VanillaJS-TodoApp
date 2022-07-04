@@ -16,8 +16,8 @@ function onGoeOk(position){
             const cityTemperature = data.main.temp
             const weatherId = data.weather[0].icon
             city.innerText = cityName
-            weather.innerText = cityWeather
-            temperature.innerText = cityTemperature
+            //weather.innerText = cityWeather
+            temperature.innerText = cityTemperature + "℃"
             icon.src = `http://openweathermap.org/img/wn/${weatherId}@2x.png`
         })
         //https://samples.openweathermap.org/data/2.5/find?q=London&appid=b1b15e88fa797225412429c1c50c122a1r

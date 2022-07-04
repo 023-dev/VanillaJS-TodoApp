@@ -28,9 +28,14 @@ function paintToDo(newToDoObj){
     spanCreator.innerText = newToDoObj.text
     buttonCreator.innerText = "❌"
     buttonCreator.style.border = "0"
-    buttonCreator.style.backgroundColor = "(255,255,255,0.5)"
+    buttonCreator.style.padding = "0"
+    buttonCreator.style.display = "inline"
+    buttonCreator.style.height = "0"
+    buttonCreator.style.paddingRight = "10px"
     buttonCreator.addEventListener("click",deleteToDo)
     liCreator.id = newToDoObj.id
+    liCreator.style.listStyle = "none"
+    liCreator.style.paddingBottom = "5px"
     toDoList.appendChild(liCreator)
     // liCreator.innerText(BindNewToDo)
     //list-style-type: none;

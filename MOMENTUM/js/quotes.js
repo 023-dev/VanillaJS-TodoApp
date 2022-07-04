@@ -51,10 +51,12 @@ function randomQuote(){
     // quote.classList.toggle("fade-in-box")
     author.classList.toggle("fade-out-box")
     // author.classList.toggle("fade-in-box")
+
     const randomInt = Math.floor(Math.random() * (quotes.length - 1))
-    quote.innerText = quotes[randomInt].quote
-    author.innerText = quotes[randomInt].author
+    document.getElementById("")
+    quote.innerText = '"' + quotes[randomInt].quote + '"'
+    author.innerText = "- " + quotes[randomInt].author + " -"
    
 }
 randomQuote()
-setInterval(randomQuote, 4000)
+setInterval(randomQuote, 5000)
