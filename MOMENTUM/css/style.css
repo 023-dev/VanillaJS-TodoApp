@@ -73,5 +73,27 @@ h1 {
     padding-left: 0px;
 }
 
+#loginInfo {
+    width: 300px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233,0.5);
+    margin-bottom: 10px;
+}
 
+#loginBtn {
+    width: 80px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 10px;
+}
 
