@@ -1,0 +1,99 @@
+body {
+    font-family :sans-serif;
+    margin : 0
+}
+
+h1 { 
+    color : white;
+    transition: color .5s ease-in-out;
+}
+
+.clicked {
+    color : lightgreen;
+    align-items: center;
+}
+
+.aws-font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hidden {
+    display : none;
+}
+
+#clock {
+    color : white;
+    align-items: center;
+    font-size: 100px;
+    margin-block-end:0.3em;
+    margin-block-start: 0.3em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction:column;
+}
+
+#quote {
+    color : white;
+    justify-content: center;
+    text-align: center
+}
+
+
+#weather {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 90%;
+        text-align: center;
+        color : white;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        width: 10%;
+        float: right;
+        position: fixed;
+}
+
+.todo-input {
+    width: 500px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233,0.5);
+}
+
+#todo-list {
+    padding-left: 0px;
+}
+
+#loginInfo {
+    width: 300px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233,0.5);
+    margin-bottom: 10px;
+}
+
+#loginBtn {
+    width: 80px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 10px;
+}
+
